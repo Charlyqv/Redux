@@ -15,4 +15,5 @@ export const pokemonSlice = createSlice({
         }
     }
 });
+ 
 export const { startLoadingPokemons, setPokemons } = pokemonSlice.actions;
